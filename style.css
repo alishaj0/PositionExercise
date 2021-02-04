@@ -69,12 +69,14 @@ body {
   #power {
       position: relative;
       right: 225px;
+        z-index:1;
   }
 
    #space {
       position: relative;
       right: 115px;
       top: 115px;  
+      z-index: 1; 
     } 
 
    #soul {
@@ -103,5 +105,5 @@ body {
     h1 {
         position: sticky;
         top: 0px;
-        
+        z-index: 4;
     }
